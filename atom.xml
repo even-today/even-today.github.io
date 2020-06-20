@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>新迪的个人博客</title>
+  
+  <subtitle>说出来你可能不信的前端工程师</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://elson8080.github.io/"/>
+  <updated>2020-06-20T09:31:19.067Z</updated>
+  <id>https://elson8080.github.io/</id>
+  
+  <author>
+    <name>刘新迪</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>读书《星空的琴弦》</title>
+    <link href="https://elson8080.github.io/2020/06/20/%E8%AF%BB%E4%B9%A6%E3%80%8A%E6%98%9F%E7%A9%BA%E7%9A%84%E7%90%B4%E5%BC%A6%E3%80%8B/"/>
+    <id>https://elson8080.github.io/2020/06/20/读书《星空的琴弦》/</id>
+    <published>2020-06-20T09:27:35.000Z</published>
+    <updated>2020-06-20T09:31:19.067Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>科学精神比科学知识更重要，即：探索，怀疑，实证，理性的过程比结果更重要</p><p>科学的伟大力量在于，它可以被重复检验，不像玄学“心诚则灵，不灵则是心不诚”</p><p>无论是开普勒，哥白尼还是后来的伽利略，牛顿，在各自学说成立过程中，都解决与提出许多问题，也正是这些有价值的问题，推动了科学和真理往前的一步又一步</p><p>平庸-我们在宇宙中所处位置和演化阶段都是平庸而且无任何特殊之处的<br>作者的推论：研究某个细菌，不需要盯着一个细菌连续拍摄，而是对着一片细菌，因为细菌演化过程中都是相似的，同样外星人研究人类也是一样</p><p>宇宙中，我们观测到的物质占比 4.9%，暗物质占比 26.8%，68.3% 的暗能量<br>暗物质：主流观点是一种微观粒子，除了与其他粒子发生引力效应外，几乎不与其他粒子发生任何作用<br>暗能量：1999 年的研究表明，宇宙在大爆炸 70 亿年中，是减速膨胀的，70 亿年后是加速膨胀的，造成加速膨胀的能量叫做暗能量，主流观测定义为：空间的固有属性，物质之间空间越小，暗能量越小，空间越大，暗能量越大</p><p>宇宙的命运会是怎样？<br>主流观点</p><ol><li>热寂说：基于熵增理论，宇宙变得无比巨大，所有的星体都会完全蒸发，宇宙最终剩下光子和轻子。</li><li>大撕裂：基于暗能力理论，暗能量无限增强，把所有的粒子都撕裂，即每个粒子远离速度都超过光速，粒子粒子之间不再发生任何相互作用</li></ol><p>书结尾：“康德：有两件事情是我愈是思考愈觉神奇，心中也愈充满敬畏，那就是我头顶上的星空与我内心的道德准则”</p><h2 id="感触"><a href="#感触" class="headerlink" title="感触"></a>感触</h2><p>这是一本围绕人类是如何探索世界，解答一个又一个对于人类认知世界问题的科普书籍。<br>通过“编写”人物经历，对话和情节，介绍科学发现过程与方法论，其中也不乏关键的数学与物理学论证逻辑。<br>从最开始的“地球如果自转如何解释物体是垂直升起和落下的现象？”到最终“宇宙最终的命运会是怎样？”，无论答案是什么，作者都传达了一个非常精妙而有趣的理论：</p><p>“研究这些问题的意义都是人赋予的，我们称之为艺术，人类没有解决温饱之前，艺术是没有意义的，人类解决温饱之后，艺术的意义大于吃饭，如果你追问下去，艺术对人类的意义到底是什么？那么只有一个答案：给人带来美感”</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;科学精神比科学知识更重要，即：探索，怀疑，实证，理性的过程比结果更重要&lt;/p&gt;
+&lt;p&gt;科学的伟大力量在于，它可以被重复检验，不像玄学“心诚则
+      
+    
+    </summary>
+    
+    
+      <category term="读书" scheme="https://elson8080.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前端知识记录</title>
+    <link href="https://elson8080.github.io/2020/04/27/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95/"/>
+    <id>https://elson8080.github.io/2020/04/27/前端知识记录/</id>
+    <published>2020-04-27T01:18:01.000Z</published>
+    <updated>2020-06-20T09:26:44.997Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="TCP-三次握手建立连接"><a href="#TCP-三次握手建立连接" class="headerlink" title="TCP 三次握手建立连接"></a>TCP 三次握手建立连接</h2><p>客户端和服务端通信前要进行连接，“3次握手”的作用就是双方都能明确自己和对方的收、发能力是正常的。</p><p>第一次握手：客户端发送网络包，服务端收到了。这样服务端就能得出结论：客户端的发送能力、服务端的接收能力是正常的。</p><p>第二次握手：服务端发包，客户端收到了。这样客户端就能得出结论：服务端的接收、发送能力，客户端的接收、发送能力是正常的。 从客户端的视角来看，我接到了服务端发送过来的响应数据包，说明服务端接收到了我在第一次握手时发送的网络包，并且成功发送了响应数据包，这就说明，服务端的接收、发送能力正常。而另一方面，我收到了服务端的响应数据包，说明我第一次发送的网络包成功到达服务端，这样，我自己的发送和接收能力也是正常的。</p><p>第三次握手：客户端发包，服务端收到了。这样服务端就能得出结论：客户端的接收、发送能力，服务端的发送、接收能力是正常的。 第一、二次握手后，服务端并不知道客户端的接收能力以及自己的发送能力是否正常。而在第三次握手时，服务端收到了客户端对第二次握手作的回应。从服务端的角度，我在第二次握手时的响应数据发送出去了，客户端接收到了。所以，我的发送能力是正常的。而客户端的接收能力也是正常的。</p><p>经历了上面的三次握手过程，客户端和服务端都确认了自己的接收、发送能力是正常的。之后就可以正常通信了。</p><h2 id="TCP-四次挥手断开连接"><a href="#TCP-四次挥手断开连接" class="headerlink" title="TCP 四次挥手断开连接"></a>TCP 四次挥手断开连接</h2><ol><li><p>客户端发送一个FIN段，并包含一个希望接收者看到的自己当前的序列号K. 同时还包含一个ACK表示确认对方最近一次发过来的数据。</p></li><li><p>服务端将K值加1作为ACK序号值，表明收到了上一个包。这时上层的应用程序会被告知另一端发起了关闭操作，通常这将引起应用程序发起自己的关闭操作。</p></li><li><p>服务端发起自己的FIN段，ACK=K+1, Seq=L</p></li><li><p>客户端确认。ACK=L+1</p></li></ol><h2 id="为什么建立连接是三次握手，而关闭连接却是四次挥手呢？"><a href="#为什么建立连接是三次握手，而关闭连接却是四次挥手呢？" class="headerlink" title="为什么建立连接是三次握手，而关闭连接却是四次挥手呢？"></a>为什么建立连接是三次握手，而关闭连接却是四次挥手呢？</h2><p>建立连接的时候，服务端在收到建立连接请求的SYN报文后，把ACK和SYN放在一个报文里发送给客户端。</p><p>而关闭连接时，当收到对方的FIN报文时，仅仅表示对方不再发送数据了但是还能接收数据，己方是否现在关闭发送数据通道，需要上层应用来决定，因此，己方ACK和FIN一般都会分开发送。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;TCP-三次握手建立连接&quot;&gt;&lt;a href=&quot;#TCP-三次握手建立连接&quot; class=&quot;headerlink&quot; title=&quot;TCP 三次握手建立连接&quot;&gt;&lt;/a&gt;TCP 三次握手建立连接&lt;/h2&gt;&lt;p&gt;客户端和服务端通信前要进行连接，“3次握手”的作用就是双方都
+      
+    
+    </summary>
+    
+      <category term="Web" scheme="https://elson8080.github.io/categories/Web/"/>
+    
+    
+      <category term="Web 前端" scheme="https://elson8080.github.io/tags/Web-%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一年快要过去了...</title>
+    <link href="https://elson8080.github.io/2018/02/24/%E4%B8%80%E5%B9%B4%E5%BF%AB%E8%A6%81%E8%BF%87%E5%8E%BB%E4%BA%86/"/>
+    <id>https://elson8080.github.io/2018/02/24/一年快要过去了/</id>
+    <published>2018-02-24T15:01:25.000Z</published>
+    <updated>2019-02-23T05:24:35.267Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先得感谢xulayen的 <a href="https://github.com/xulayen/Blog" target="_blank" rel="noopener">blog-cli</a>，省了很多hexo博客配置过程，有需要同学也可clone配置，侵权立删；</p><p>其实很早就准备写写东西，或总结或展望，似乎工作之后人会变得愈加懒散，可日子总归会给你沉重的一击，告诉你：“你怎么可以这么无聊？”；</p><p>总结之类的文章写过三篇，均在QQ空间日志栏目（是的，就是这么中二），分别是：</p><ul><li>「16年初之在大学为什么要努力学习」</li><li>「16年8月刚入职百度的彷徨和窃喜」</li><li>「16年11月离开百度回校时的感动」</li></ul><p>17年似乎没留下什么文字，最好还是记录一下；</p><a id="more"></a><h2 id="毕业"><a href="#毕业" class="headerlink" title="毕业"></a>毕业</h2><p>17年最大的事情莫过于从天津大学软件学院毕业了，身置学位袍，在校长将流苏从右侧移动到左侧之时，也就代表着你以天津大学学士的身份步入更大的舞台，后知后觉，这一刻一年快过去了…</p><h2 id="入职美团点评"><a href="#入职美团点评" class="headerlink" title="入职美团点评"></a>入职美团点评</h2><p>在美团平台Web研发部实习与正式入职是这一年最激动人心的事情，技术氛围浓厚，技术驱动明显，公司，部门均处于高速发展阶段，处处面临机遇与挑战，会为在这里做的每一件事情变得useful而满足，也为更高的目标而努力着…</p><h2 id="工作成长"><a href="#工作成长" class="headerlink" title="工作成长"></a>工作成长</h2><p>主要体现在：</p><ul><li>一定的判断JS代码可读性和性能效益的能力</li><li>根据问题查阅ECMA，W3C等标准的能力</li><li>一定的提前预知和处理边界问题的眼光和能力</li><li>一定的技术方案整理和有效沟通的能力</li><li>对业界优秀方案，框架，代码，组件等的热情</li></ul><p>感谢罡哥，马师傅等大佬，一直觉得在公司成长最快的方式就是有师傅可以带着你，向你们学习也是我工作的热情之一；</p><h2 id="情感"><a href="#情感" class="headerlink" title="情感"></a>情感</h2><p>人是社会动物，有向他人倾诉和聆听他人的本能，最直接的反馈可让人获得情感上的满足。这一年认识了很多新的同学，也渐渐与很多老朋友断了联系，觉得很奇妙也觉得无可奈何，记得何洋说过：“一个常人在一定的时间只能与100个人保持朋友般的联系”，或许就是这个道理吧；</p><p>与其忧郁在过去的日子，不如着眼于目前的事情，努力把握未来才是正道！</p><h2 id="游戏与电影"><a href="#游戏与电影" class="headerlink" title="游戏与电影"></a>游戏与电影</h2><p>最近改变最大的莫过于闲暇时间从之前的游戏渐渐转为电影，《绣春刀》真好看，有机会一定写写观后感，以及大家有推荐的电影可以告诉我呀！</p><p><strong>We are shaping the future !</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;首先得感谢xulayen的 &lt;a href=&quot;https://github.com/xulayen/Blog&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;blog-cli&lt;/a&gt;，省了很多hexo博客配置过程，有需要同学也可clone配置，侵权立删；&lt;/p&gt;
+&lt;p&gt;其实很早就准备写写东西，或总结或展望，似乎工作之后人会变得愈加懒散，可日子总归会给你沉重的一击，告诉你：“你怎么可以这么无聊？”；&lt;/p&gt;
+&lt;p&gt;总结之类的文章写过三篇，均在QQ空间日志栏目（是的，就是这么中二），分别是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;「16年初之在大学为什么要努力学习」&lt;/li&gt;
+&lt;li&gt;「16年8月刚入职百度的彷徨和窃喜」&lt;/li&gt;
+&lt;li&gt;「16年11月离开百度回校时的感动」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;17年似乎没留下什么文字，最好还是记录一下；&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://elson8080.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="https://elson8080.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Fetch性能测试小结</title>
+    <link href="https://elson8080.github.io/2017/11/07/Fetch%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%B0%8F%E7%BB%93/"/>
+    <id>https://elson8080.github.io/2017/11/07/Fetch性能测试小结/</id>
+    <published>2017-11-07T15:01:25.000Z</published>
+    <updated>2019-02-23T05:24:35.267Z</updated>
+    
+    <content type="html"><![CDATA[<p>因最近有一些前端http性能测试的需求，故总结一些在JS打点在代码层面的思考，欢迎交流，测试基于ES6, Fetch与Promise参考 <a href="http://www.cnblogs.com/wonyun/p/fetch_polyfill_timeout_jsonp_cookie_progress.html" target="_blank" rel="noopener">fetch使用注意</a></p><h3 id="需要考虑的问题"><a href="#需要考虑的问题" class="headerlink" title="需要考虑的问题"></a>需要考虑的问题</h3><ul><li>统计客户端从发起Fetch（Ajax）请求到接收到数据之间的响应时间</li><li>是否并发，如何并发</li><li>如何确保统计数据可靠性</li><li>特殊处理：函数节流防止用户等待过程中再次操作，避免命中缓存等</li></ul><a id="more"></a><h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><p>先来看一个普通打点的实现</p><h4 id="普通打点代码"><a href="#普通打点代码" class="headerlink" title="普通打点代码"></a>普通打点代码</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> service = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'功能逻辑...'</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> timer = (<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">let</span> time_start;</span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">        before: <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">            time_start = (+<span class="keyword">new</span> <span class="built_in">Date</span>());</span><br><span class="line">            <span class="built_in">console</span>.log(<span class="string">'计时开始...'</span>);</span><br><span class="line">        &#125;,</span><br><span class="line">        after: <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">            <span class="keyword">var</span> end = (+<span class="keyword">new</span> <span class="built_in">Date</span>()) - time_start;</span><br><span class="line">            <span class="built_in">console</span>.log(<span class="string">`计时结束，用时：<span class="subst">$&#123;end&#125;</span>ms`</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)();</span><br><span class="line"><span class="keyword">let</span> test = <span class="function"><span class="keyword">function</span>(<span class="params">fn, timer</span>)</span>&#123;</span><br><span class="line">    timer.before &amp;&amp; timer.before();</span><br><span class="line">    fn();</span><br><span class="line">    timer.after &amp;&amp; timer.after();</span><br><span class="line">&#125;</span><br><span class="line">test(service, timer);</span><br></pre></td></tr></table></figure><p>复制粘贴到console可以看到service执行大概用时了1毫秒，这种打点方式有如下缺点：</p><ol><li>没有做到对请求异步操作的正确打点</li><li>只支持同步函数</li><li>不支持并发</li></ol><p>结论：这段代码并不适合用作异步操作的响应时间统计</p><h4 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h4><ol><li>统计浏览器的http响应时间并不适合用并发的方式，原因在于：<ul><li>各大浏览器支持的并发数有限；</li><li>并发请求中间层或者服务器会做特殊处理（防ddos攻击），影响数据准确性；</li></ul></li><li>保证数据可靠性措施<ul><li>禁止服务器和浏览器缓存；</li><li>请求次数较大，并且过滤响应时间过高和过低的一部分，剩下取平均值；</li><li>每个请求之间应加上一定的间隔，避免服务器统一处理并减少网络对结果的影响；</li></ul></li><li>代码需要要一定的扩展性<ul><li>处理不同的请求Get, Post；</li><li>使用不同的请求方式fetch，Ajax；</li></ul></li></ol><h4 id="结论代码"><a href="#结论代码" class="headerlink" title="结论代码"></a>结论代码</h4><p>针对以上思考，最终代码如下：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> timeBox = [], <span class="comment">// 请求时间汇总</span></span><br><span class="line">    url = <span class="string">"https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap-grid.css"</span>, <span class="comment">// 以bootstarp的cdn为例</span></span><br><span class="line">    isRunning = <span class="literal">false</span>, <span class="comment">// 函数节流</span></span><br><span class="line">    test_number = <span class="number">100</span>; <span class="comment">// 测试次数</span></span><br><span class="line">    </span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">lunchGet</span> (<span class="params">url, request</span>) </span>&#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params">requestId</span>)</span>&#123;</span><br><span class="line">          <span class="comment">// 随机参数避免浏览器缓存</span></span><br><span class="line">          <span class="keyword">var</span> url_own = url + <span class="string">`?requestId=<span class="subst">$&#123;requestId&#125;</span>&amp;random=<span class="subst">$&#123;<span class="built_in">Math</span>.random()&#125;</span>`</span>;</span><br><span class="line">          timeBox[requestId] = &#123;&#125;;</span><br><span class="line">          timeBox[requestId].beginTime = <span class="keyword">new</span> <span class="built_in">Date</span>().getTime();</span><br><span class="line">          <span class="keyword">return</span> request (url_own);</span><br><span class="line">      &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">function</span> <span class="title">circulation</span> (<span class="params">method, url, request</span>)</span>&#123;</span><br><span class="line">      <span class="keyword">if</span>(isRunning) <span class="keyword">return</span>;</span><br><span class="line">      isRunning = <span class="literal">true</span>;</span><br><span class="line">      <span class="keyword">let</span> lunch = method(url, request);</span><br><span class="line">      <span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; test_number; i++)&#123;</span><br><span class="line">        <span class="keyword">await</span> lunch(i).then(<span class="function">(<span class="params">res</span>) =&gt;</span> &#123;</span><br><span class="line">          timeBox[i].endTime = <span class="keyword">new</span> <span class="built_in">Date</span>().getTime();</span><br><span class="line">          <span class="keyword">return</span> res;</span><br><span class="line">         &#125;).then(<span class="function">(<span class="params">res</span>) =&gt;</span> &#123;</span><br><span class="line">           res &amp;&amp; <span class="built_in">console</span>.log(<span class="string">'成功接收数据: '</span>,res)</span><br><span class="line">         &#125;).catch(<span class="function">(<span class="params">err</span>) =&gt;</span> &#123;</span><br><span class="line">            <span class="built_in">console</span>.log(<span class="string">"error from js =&gt; "</span>, err);</span><br><span class="line">         &#125;)</span><br><span class="line">         <span class="comment">// 增加时间间隔避免服务器特殊处理</span></span><br><span class="line">         <span class="keyword">await</span> setTimeout(<span class="function"><span class="params">()</span> =&gt;</span> &#123;&#125;, <span class="number">20</span>);</span><br><span class="line">       &#125;</span><br><span class="line">       isRunning = <span class="literal">false</span>;</span><br><span class="line">       <span class="keyword">let</span> result = formatTimebox(timeBox);</span><br><span class="line">       <span class="built_in">console</span>.log(<span class="string">`GET请求平均耗时为<span class="subst">$&#123;result&#125;</span>ms`</span>);</span><br><span class="line"> &#125;</span><br><span class="line"> </span><br><span class="line"> <span class="function"><span class="keyword">function</span> <span class="title">formatTimebox</span>(<span class="params">timebox</span>) </span>&#123;</span><br><span class="line">         <span class="keyword">let</span> result = [];</span><br><span class="line">         <span class="keyword">for</span> (<span class="keyword">let</span> i <span class="keyword">in</span> timebox) &#123;</span><br><span class="line">           result.push(timebox[i].endTime - timebox[i].beginTime);</span><br><span class="line">         &#125;</span><br><span class="line">         result.sort();</span><br><span class="line">         <span class="comment">// 废弃前5%和后5%的数据</span></span><br><span class="line">         <span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; test_number * <span class="number">0.05</span>; i++) &#123;</span><br><span class="line">           result.pop();</span><br><span class="line">           result.shift();</span><br><span class="line">         &#125;</span><br><span class="line"> </span><br><span class="line">         <span class="keyword">let</span> sum = <span class="number">0</span>;</span><br><span class="line">         <span class="keyword">for</span> (<span class="keyword">let</span> i <span class="keyword">in</span> result)&#123;</span><br><span class="line">           sum += result[i];</span><br><span class="line">         &#125;</span><br><span class="line">         <span class="keyword">return</span> sum / result.length;</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">  circulation(lunchGet, url, fetch);</span><br></pre></td></tr></table></figure></p><p>代码部分仍有一定的问题，欢迎交流</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;因最近有一些前端http性能测试的需求，故总结一些在JS打点在代码层面的思考，欢迎交流，测试基于ES6, Fetch与Promise参考 &lt;a href=&quot;http://www.cnblogs.com/wonyun/p/fetch_polyfill_timeout_jsonp_cookie_progress.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;fetch使用注意&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;需要考虑的问题&quot;&gt;&lt;a href=&quot;#需要考虑的问题&quot; class=&quot;headerlink&quot; title=&quot;需要考虑的问题&quot;&gt;&lt;/a&gt;需要考虑的问题&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;统计客户端从发起Fetch（Ajax）请求到接收到数据之间的响应时间&lt;/li&gt;
+&lt;li&gt;是否并发，如何并发&lt;/li&gt;
+&lt;li&gt;如何确保统计数据可靠性&lt;/li&gt;
+&lt;li&gt;特殊处理：函数节流防止用户等待过程中再次操作，避免命中缓存等&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Web" scheme="https://elson8080.github.io/categories/Web/"/>
+    
+    
+      <category term="fetch" scheme="https://elson8080.github.io/tags/fetch/"/>
+    
+      <category term="性能测试" scheme="https://elson8080.github.io/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>
