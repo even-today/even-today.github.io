@@ -1,28 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[读书《星空的琴弦》]]></title>
-    <url>%2F2020%2F06%2F20%2F%E8%AF%BB%E4%B9%A6%E3%80%8A%E6%98%9F%E7%A9%BA%E7%9A%84%E7%90%B4%E5%BC%A6%E3%80%8B%2F</url>
-    <content type="text"><![CDATA[摘要科学精神比科学知识更重要，即：探索，怀疑，实证，理性的过程比结果更重要 科学的伟大力量在于，它可以被重复检验，不像玄学“心诚则灵，不灵则是心不诚” 无论是开普勒，哥白尼还是后来的伽利略，牛顿，在各自学说成立过程中，都解决与提出许多问题，也正是这些有价值的问题，推动了科学和真理往前的一步又一步 平庸-我们在宇宙中所处位置和演化阶段都是平庸而且无任何特殊之处的作者的推论：研究某个细菌，不需要盯着一个细菌连续拍摄，而是对着一片细菌，因为细菌演化过程中都是相似的，同样外星人研究人类也是一样 宇宙中，我们观测到的物质占比 4.9%，暗物质占比 26.8%，68.3% 的暗能量暗物质：主流观点是一种微观粒子，除了与其他粒子发生引力效应外，几乎不与其他粒子发生任何作用暗能量：1999 年的研究表明，宇宙在大爆炸 70 亿年中，是减速膨胀的，70 亿年后是加速膨胀的，造成加速膨胀的能量叫做暗能量，主流观测定义为：空间的固有属性，物质之间空间越小，暗能量越小，空间越大，暗能量越大 宇宙的命运会是怎样？主流观点 热寂说：基于熵增理论，宇宙变得无比巨大，所有的星体都会完全蒸发，宇宙最终剩下光子和轻子。 大撕裂：基于暗能力理论，暗能量无限增强，把所有的粒子都撕裂，即每个粒子远离速度都超过光速，粒子粒子之间不再发生任何相互作用 书结尾：“康德：有两件事情是我愈是思考愈觉神奇，心中也愈充满敬畏，那就是我头顶上的星空与我内心的道德准则” 感触这是一本围绕人类是如何探索世界，解答一个又一个对于人类认知世界问题的科普书籍。通过“编写”人物经历，对话和情节，介绍科学发现过程与方法论，其中也不乏关键的数学与物理学论证逻辑。从最开始的“地球如果自转如何解释物体是垂直升起和落下的现象？”到最终“宇宙最终的命运会是怎样？”，无论答案是什么，作者都传达了一个非常精妙而有趣的理论： “研究这些问题的意义都是人赋予的，我们称之为艺术，人类没有解决温饱之前，艺术是没有意义的，人类解决温饱之后，艺术的意义大于吃饭，如果你追问下去，艺术对人类的意义到底是什么？那么只有一个答案：给人带来美感”]]></content>
-      <tags>
-        <tag>读书</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[前端知识记录]]></title>
-    <url>%2F2020%2F04%2F27%2F%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95%2F</url>
-    <content type="text"><![CDATA[TCP 三次握手建立连接客户端和服务端通信前要进行连接，“3次握手”的作用就是双方都能明确自己和对方的收、发能力是正常的。 第一次握手：客户端发送网络包，服务端收到了。这样服务端就能得出结论：客户端的发送能力、服务端的接收能力是正常的。 第二次握手：服务端发包，客户端收到了。这样客户端就能得出结论：服务端的接收、发送能力，客户端的接收、发送能力是正常的。 从客户端的视角来看，我接到了服务端发送过来的响应数据包，说明服务端接收到了我在第一次握手时发送的网络包，并且成功发送了响应数据包，这就说明，服务端的接收、发送能力正常。而另一方面，我收到了服务端的响应数据包，说明我第一次发送的网络包成功到达服务端，这样，我自己的发送和接收能力也是正常的。 第三次握手：客户端发包，服务端收到了。这样服务端就能得出结论：客户端的接收、发送能力，服务端的发送、接收能力是正常的。 第一、二次握手后，服务端并不知道客户端的接收能力以及自己的发送能力是否正常。而在第三次握手时，服务端收到了客户端对第二次握手作的回应。从服务端的角度，我在第二次握手时的响应数据发送出去了，客户端接收到了。所以，我的发送能力是正常的。而客户端的接收能力也是正常的。 经历了上面的三次握手过程，客户端和服务端都确认了自己的接收、发送能力是正常的。之后就可以正常通信了。 TCP 四次挥手断开连接 客户端发送一个FIN段，并包含一个希望接收者看到的自己当前的序列号K. 同时还包含一个ACK表示确认对方最近一次发过来的数据。 服务端将K值加1作为ACK序号值，表明收到了上一个包。这时上层的应用程序会被告知另一端发起了关闭操作，通常这将引起应用程序发起自己的关闭操作。 服务端发起自己的FIN段，ACK=K+1, Seq=L 客户端确认。ACK=L+1 为什么建立连接是三次握手，而关闭连接却是四次挥手呢？建立连接的时候，服务端在收到建立连接请求的SYN报文后，把ACK和SYN放在一个报文里发送给客户端。 而关闭连接时，当收到对方的FIN报文时，仅仅表示对方不再发送数据了但是还能接收数据，己方是否现在关闭发送数据通道，需要上层应用来决定，因此，己方ACK和FIN一般都会分开发送。]]></content>
+    <title>Fetch性能测试小结</title>
+    <url>/2017/11/07/Fetch%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%B0%8F%E7%BB%93/</url>
+    <content><![CDATA[<p>因最近有一些前端http性能测试的需求，故总结一些在JS打点在代码层面的思考，欢迎交流，测试基于ES6, Fetch与Promise参考 <a href="http://www.cnblogs.com/wonyun/p/fetch_polyfill_timeout_jsonp_cookie_progress.html">fetch使用注意</a></p>
+<h3 id="需要考虑的问题"><a href="#需要考虑的问题" class="headerlink" title="需要考虑的问题"></a>需要考虑的问题</h3><ul>
+<li>统计客户端从发起Fetch（Ajax）请求到接收到数据之间的响应时间</li>
+<li>是否并发，如何并发</li>
+<li>如何确保统计数据可靠性</li>
+<li>特殊处理：函数节流防止用户等待过程中再次操作，避免命中缓存等</li>
+</ul>
+<span id="more"></span>
+<h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><p>先来看一个普通打点的实现</p>
+<h4 id="普通打点代码"><a href="#普通打点代码" class="headerlink" title="普通打点代码"></a>普通打点代码</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> service = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&#x27;功能逻辑...&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> timer = (<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">let</span> time_start;</span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">        <span class="attr">before</span>: <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">            time_start = (+<span class="keyword">new</span> <span class="built_in">Date</span>());</span><br><span class="line">            <span class="built_in">console</span>.log(<span class="string">&#x27;计时开始...&#x27;</span>);</span><br><span class="line">        &#125;,</span><br><span class="line">        <span class="attr">after</span>: <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">            <span class="keyword">var</span> end = (+<span class="keyword">new</span> <span class="built_in">Date</span>()) - time_start;</span><br><span class="line">            <span class="built_in">console</span>.log(<span class="string">`计时结束，用时：<span class="subst">$&#123;end&#125;</span>ms`</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)();</span><br><span class="line"><span class="keyword">let</span> test = <span class="function"><span class="keyword">function</span>(<span class="params">fn, timer</span>)</span>&#123;</span><br><span class="line">    timer.before &amp;&amp; timer.before();</span><br><span class="line">    fn();</span><br><span class="line">    timer.after &amp;&amp; timer.after();</span><br><span class="line">&#125;</span><br><span class="line">test(service, timer);</span><br></pre></td></tr></table></figure>
+<p>复制粘贴到console可以看到service执行大概用时了1毫秒，这种打点方式有如下缺点：</p>
+<ol>
+<li>没有做到对请求异步操作的正确打点</li>
+<li>只支持同步函数</li>
+<li>不支持并发</li>
+</ol>
+<p>结论：这段代码并不适合用作异步操作的响应时间统计</p>
+<h4 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h4><ol>
+<li>统计浏览器的http响应时间并不适合用并发的方式，原因在于：<ul>
+<li>各大浏览器支持的并发数有限；</li>
+<li>并发请求中间层或者服务器会做特殊处理（防ddos攻击），影响数据准确性；</li>
+</ul>
+</li>
+<li>保证数据可靠性措施<ul>
+<li>禁止服务器和浏览器缓存；</li>
+<li>请求次数较大，并且过滤响应时间过高和过低的一部分，剩下取平均值；</li>
+<li>每个请求之间应加上一定的间隔，避免服务器统一处理并减少网络对结果的影响；</li>
+</ul>
+</li>
+<li>代码需要要一定的扩展性<ul>
+<li>处理不同的请求Get, Post；</li>
+<li>使用不同的请求方式fetch，Ajax；</li>
+</ul>
+</li>
+</ol>
+<h4 id="结论代码"><a href="#结论代码" class="headerlink" title="结论代码"></a>结论代码</h4><p>针对以上思考，最终代码如下：<br><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> timeBox = [], <span class="comment">// 请求时间汇总</span></span><br><span class="line">    url = <span class="string">&quot;https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap-grid.css&quot;</span>, <span class="comment">// 以bootstarp的cdn为例</span></span><br><span class="line">    isRunning = <span class="literal">false</span>, <span class="comment">// 函数节流</span></span><br><span class="line">    test_number = <span class="number">100</span>; <span class="comment">// 测试次数</span></span><br><span class="line">    </span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">lunchGet</span> (<span class="params">url, request</span>) </span>&#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params">requestId</span>)</span>&#123;</span><br><span class="line">          <span class="comment">// 随机参数避免浏览器缓存</span></span><br><span class="line">          <span class="keyword">var</span> url_own = url + <span class="string">`?requestId=<span class="subst">$&#123;requestId&#125;</span>&amp;random=<span class="subst">$&#123;<span class="built_in">Math</span>.random()&#125;</span>`</span>;</span><br><span class="line">          timeBox[requestId] = &#123;&#125;;</span><br><span class="line">          timeBox[requestId].beginTime = <span class="keyword">new</span> <span class="built_in">Date</span>().getTime();</span><br><span class="line">          <span class="keyword">return</span> request (url_own);</span><br><span class="line">      &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">function</span> <span class="title">circulation</span> (<span class="params">method, url, request</span>)</span>&#123;</span><br><span class="line">      <span class="keyword">if</span>(isRunning) <span class="keyword">return</span>;</span><br><span class="line">      isRunning = <span class="literal">true</span>;</span><br><span class="line">      <span class="keyword">let</span> lunch = method(url, request);</span><br><span class="line">      <span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; test_number; i++)&#123;</span><br><span class="line">        <span class="keyword">await</span> lunch(i).then(<span class="function">(<span class="params">res</span>) =&gt;</span> &#123;</span><br><span class="line">          timeBox[i].endTime = <span class="keyword">new</span> <span class="built_in">Date</span>().getTime();</span><br><span class="line">          <span class="keyword">return</span> res;</span><br><span class="line">         &#125;).then(<span class="function">(<span class="params">res</span>) =&gt;</span> &#123;</span><br><span class="line">           res &amp;&amp; <span class="built_in">console</span>.log(<span class="string">&#x27;成功接收数据: &#x27;</span>,res)</span><br><span class="line">         &#125;).catch(<span class="function">(<span class="params">err</span>) =&gt;</span> &#123;</span><br><span class="line">            <span class="built_in">console</span>.log(<span class="string">&quot;error from js =&gt; &quot;</span>, err);</span><br><span class="line">         &#125;)</span><br><span class="line">         <span class="comment">// 增加时间间隔避免服务器特殊处理</span></span><br><span class="line">         <span class="keyword">await</span> <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;&#125;, <span class="number">20</span>);</span><br><span class="line">       &#125;</span><br><span class="line">       isRunning = <span class="literal">false</span>;</span><br><span class="line">       <span class="keyword">let</span> result = formatTimebox(timeBox);</span><br><span class="line">       <span class="built_in">console</span>.log(<span class="string">`GET请求平均耗时为<span class="subst">$&#123;result&#125;</span>ms`</span>);</span><br><span class="line"> &#125;</span><br><span class="line"> </span><br><span class="line"> <span class="function"><span class="keyword">function</span> <span class="title">formatTimebox</span>(<span class="params">timebox</span>) </span>&#123;</span><br><span class="line">         <span class="keyword">let</span> result = [];</span><br><span class="line">         <span class="keyword">for</span> (<span class="keyword">let</span> i <span class="keyword">in</span> timebox) &#123;</span><br><span class="line">           result.push(timebox[i].endTime - timebox[i].beginTime);</span><br><span class="line">         &#125;</span><br><span class="line">         result.sort();</span><br><span class="line">         <span class="comment">// 废弃前5%和后5%的数据</span></span><br><span class="line">         <span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; test_number * <span class="number">0.05</span>; i++) &#123;</span><br><span class="line">           result.pop();</span><br><span class="line">           result.shift();</span><br><span class="line">         &#125;</span><br><span class="line"> </span><br><span class="line">         <span class="keyword">let</span> sum = <span class="number">0</span>;</span><br><span class="line">         <span class="keyword">for</span> (<span class="keyword">let</span> i <span class="keyword">in</span> result)&#123;</span><br><span class="line">           sum += result[i];</span><br><span class="line">         &#125;</span><br><span class="line">         <span class="keyword">return</span> sum / result.length;</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">  circulation(lunchGet, url, fetch);</span><br></pre></td></tr></table></figure><br>代码部分仍有一定的问题，欢迎交流</p>
+]]></content>
       <categories>
         <category>Web</category>
       </categories>
       <tags>
-        <tag>Web 前端</tag>
+        <tag>fetch</tag>
+        <tag>性能测试</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[一年快要过去了...]]></title>
-    <url>%2F2018%2F02%2F24%2F%E4%B8%80%E5%B9%B4%E5%BF%AB%E8%A6%81%E8%BF%87%E5%8E%BB%E4%BA%86%2F</url>
-    <content type="text"><![CDATA[首先得感谢xulayen的 blog-cli，省了很多hexo博客配置过程，有需要同学也可clone配置，侵权立删； 其实很早就准备写写东西，或总结或展望，似乎工作之后人会变得愈加懒散，可日子总归会给你沉重的一击，告诉你：“你怎么可以这么无聊？”； 总结之类的文章写过三篇，均在QQ空间日志栏目（是的，就是这么中二），分别是： 「16年初之在大学为什么要努力学习」 「16年8月刚入职百度的彷徨和窃喜」 「16年11月离开百度回校时的感动」 17年似乎没留下什么文字，最好还是记录一下； 毕业17年最大的事情莫过于从天津大学软件学院毕业了，身置学位袍，在校长将流苏从右侧移动到左侧之时，也就代表着你以天津大学学士的身份步入更大的舞台，后知后觉，这一刻一年快过去了… 入职美团点评在美团平台Web研发部实习与正式入职是这一年最激动人心的事情，技术氛围浓厚，技术驱动明显，公司，部门均处于高速发展阶段，处处面临机遇与挑战，会为在这里做的每一件事情变得useful而满足，也为更高的目标而努力着… 工作成长主要体现在： 一定的判断JS代码可读性和性能效益的能力 根据问题查阅ECMA，W3C等标准的能力 一定的提前预知和处理边界问题的眼光和能力 一定的技术方案整理和有效沟通的能力 对业界优秀方案，框架，代码，组件等的热情 感谢罡哥，马师傅等大佬，一直觉得在公司成长最快的方式就是有师傅可以带着你，向你们学习也是我工作的热情之一； 情感人是社会动物，有向他人倾诉和聆听他人的本能，最直接的反馈可让人获得情感上的满足。这一年认识了很多新的同学，也渐渐与很多老朋友断了联系，觉得很奇妙也觉得无可奈何，记得何洋说过：“一个常人在一定的时间只能与100个人保持朋友般的联系”，或许就是这个道理吧； 与其忧郁在过去的日子，不如着眼于目前的事情，努力把握未来才是正道！ 游戏与电影最近改变最大的莫过于闲暇时间从之前的游戏渐渐转为电影，《绣春刀》真好看，有机会一定写写观后感，以及大家有推荐的电影可以告诉我呀！ We are shaping the future !]]></content>
+    <title>一年快要过去了...</title>
+    <url>/2018/02/24/%E4%B8%80%E5%B9%B4%E5%BF%AB%E8%A6%81%E8%BF%87%E5%8E%BB%E4%BA%86/</url>
+    <content><![CDATA[<p>首先得感谢xulayen的 <a href="https://github.com/xulayen/Blog">blog-cli</a>，省了很多hexo博客配置过程，有需要同学也可clone配置，侵权立删；</p>
+<p>其实很早就准备写写东西，或总结或展望，似乎工作之后人会变得愈加懒散，可日子总归会给你沉重的一击，告诉你：“你怎么可以这么无聊？”；</p>
+<p>总结之类的文章写过三篇，均在QQ空间日志栏目（是的，就是这么中二），分别是：</p>
+<ul>
+<li>「16年初之在大学为什么要努力学习」</li>
+<li>「16年8月刚入职百度的彷徨和窃喜」</li>
+<li>「16年11月离开百度回校时的感动」</li>
+</ul>
+<p>17年似乎没留下什么文字，最好还是记录一下；</p>
+<span id="more"></span>
+<h2 id="毕业"><a href="#毕业" class="headerlink" title="毕业"></a>毕业</h2><p>17年最大的事情莫过于从天津大学软件学院毕业了，身置学位袍，在校长将流苏从右侧移动到左侧之时，也就代表着你以天津大学学士的身份步入更大的舞台，后知后觉，这一刻一年快过去了…</p>
+<h2 id="入职美团点评"><a href="#入职美团点评" class="headerlink" title="入职美团点评"></a>入职美团点评</h2><p>在美团平台Web研发部实习与正式入职是这一年最激动人心的事情，技术氛围浓厚，技术驱动明显，公司，部门均处于高速发展阶段，处处面临机遇与挑战，会为在这里做的每一件事情变得useful而满足，也为更高的目标而努力着…</p>
+<h2 id="工作成长"><a href="#工作成长" class="headerlink" title="工作成长"></a>工作成长</h2><p>主要体现在：</p>
+<ul>
+<li>一定的判断JS代码可读性和性能效益的能力</li>
+<li>根据问题查阅ECMA，W3C等标准的能力</li>
+<li>一定的提前预知和处理边界问题的眼光和能力</li>
+<li>一定的技术方案整理和有效沟通的能力</li>
+<li>对业界优秀方案，框架，代码，组件等的热情</li>
+</ul>
+<p>感谢罡哥，马师傅等大佬，一直觉得在公司成长最快的方式就是有师傅可以带着你，向你们学习也是我工作的热情之一；</p>
+<h2 id="情感"><a href="#情感" class="headerlink" title="情感"></a>情感</h2><p>人是社会动物，有向他人倾诉和聆听他人的本能，最直接的反馈可让人获得情感上的满足。这一年认识了很多新的同学，也渐渐与很多老朋友断了联系，觉得很奇妙也觉得无可奈何，记得何洋说过：“一个常人在一定的时间只能与100个人保持朋友般的联系”，或许就是这个道理吧；</p>
+<p>与其忧郁在过去的日子，不如着眼于目前的事情，努力把握未来才是正道！</p>
+<h2 id="游戏与电影"><a href="#游戏与电影" class="headerlink" title="游戏与电影"></a>游戏与电影</h2><p>最近改变最大的莫过于闲暇时间从之前的游戏渐渐转为电影，《绣春刀》真好看，有机会一定写写观后感，以及大家有推荐的电影可以告诉我呀！</p>
+<p><strong>We are shaping the future !</strong></p>
+]]></content>
       <categories>
         <category>随笔</category>
       </categories>
@@ -31,15 +85,52 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Fetch性能测试小结]]></title>
-    <url>%2F2017%2F11%2F07%2FFetch%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%B0%8F%E7%BB%93%2F</url>
-    <content type="text"><![CDATA[因最近有一些前端http性能测试的需求，故总结一些在JS打点在代码层面的思考，欢迎交流，测试基于ES6, Fetch与Promise参考 fetch使用注意 需要考虑的问题 统计客户端从发起Fetch（Ajax）请求到接收到数据之间的响应时间 是否并发，如何并发 如何确保统计数据可靠性 特殊处理：函数节流防止用户等待过程中再次操作，避免命中缓存等 实现先来看一个普通打点的实现 普通打点代码12345678910111213141516171819202122let service = function()&#123; console.log('功能逻辑...');&#125;let timer = (function()&#123; let time_start; return &#123; before: function()&#123; time_start = (+new Date()); console.log('计时开始...'); &#125;, after: function()&#123; var end = (+new Date()) - time_start; console.log(`计时结束，用时：$&#123;end&#125;ms`); &#125; &#125;&#125;)();let test = function(fn, timer)&#123; timer.before &amp;&amp; timer.before(); fn(); timer.after &amp;&amp; timer.after();&#125;test(service, timer); 复制粘贴到console可以看到service执行大概用时了1毫秒，这种打点方式有如下缺点： 没有做到对请求异步操作的正确打点 只支持同步函数 不支持并发 结论：这段代码并不适合用作异步操作的响应时间统计 思考 统计浏览器的http响应时间并不适合用并发的方式，原因在于： 各大浏览器支持的并发数有限； 并发请求中间层或者服务器会做特殊处理（防ddos攻击），影响数据准确性； 保证数据可靠性措施 禁止服务器和浏览器缓存； 请求次数较大，并且过滤响应时间过高和过低的一部分，剩下取平均值； 每个请求之间应加上一定的间隔，避免服务器统一处理并减少网络对结果的影响； 代码需要要一定的扩展性 处理不同的请求Get, Post； 使用不同的请求方式fetch，Ajax； 结论代码针对以上思考，最终代码如下：1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556let timeBox = [], // 请求时间汇总 url = "https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap-grid.css", // 以bootstarp的cdn为例 isRunning = false, // 函数节流 test_number = 100; // 测试次数 function lunchGet (url, request) &#123; return function (requestId)&#123; // 随机参数避免浏览器缓存 var url_own = url + `?requestId=$&#123;requestId&#125;&amp;random=$&#123;Math.random()&#125;`; timeBox[requestId] = &#123;&#125;; timeBox[requestId].beginTime = new Date().getTime(); return request (url_own); &#125;&#125;async function circulation (method, url, request)&#123; if(isRunning) return; isRunning = true; let lunch = method(url, request); for(let i = 0; i &lt; test_number; i++)&#123; await lunch(i).then((res) =&gt; &#123; timeBox[i].endTime = new Date().getTime(); return res; &#125;).then((res) =&gt; &#123; res &amp;&amp; console.log('成功接收数据: ',res) &#125;).catch((err) =&gt; &#123; console.log("error from js =&gt; ", err); &#125;) // 增加时间间隔避免服务器特殊处理 await setTimeout(() =&gt; &#123;&#125;, 20); &#125; isRunning = false; let result = formatTimebox(timeBox); console.log(`GET请求平均耗时为$&#123;result&#125;ms`); &#125; function formatTimebox(timebox) &#123; let result = []; for (let i in timebox) &#123; result.push(timebox[i].endTime - timebox[i].beginTime); &#125; result.sort(); // 废弃前5%和后5%的数据 for (let i = 0; i &lt; test_number * 0.05; i++) &#123; result.pop(); result.shift(); &#125; let sum = 0; for (let i in result)&#123; sum += result[i]; &#125; return sum / result.length; &#125; circulation(lunchGet, url, fetch); 代码部分仍有一定的问题，欢迎交流]]></content>
+    <title>前端知识记录</title>
+    <url>/2020/04/27/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h2 id="TCP-三次握手建立连接"><a href="#TCP-三次握手建立连接" class="headerlink" title="TCP 三次握手建立连接"></a>TCP 三次握手建立连接</h2><p>客户端和服务端通信前要进行连接，“3次握手”的作用就是双方都能明确自己和对方的收、发能力是正常的。</p>
+<p>第一次握手：客户端发送网络包，服务端收到了。这样服务端就能得出结论：客户端的发送能力、服务端的接收能力是正常的。</p>
+<p>第二次握手：服务端发包，客户端收到了。这样客户端就能得出结论：服务端的接收、发送能力，客户端的接收、发送能力是正常的。 从客户端的视角来看，我接到了服务端发送过来的响应数据包，说明服务端接收到了我在第一次握手时发送的网络包，并且成功发送了响应数据包，这就说明，服务端的接收、发送能力正常。而另一方面，我收到了服务端的响应数据包，说明我第一次发送的网络包成功到达服务端，这样，我自己的发送和接收能力也是正常的。</p>
+<p>第三次握手：客户端发包，服务端收到了。这样服务端就能得出结论：客户端的接收、发送能力，服务端的发送、接收能力是正常的。 第一、二次握手后，服务端并不知道客户端的接收能力以及自己的发送能力是否正常。而在第三次握手时，服务端收到了客户端对第二次握手作的回应。从服务端的角度，我在第二次握手时的响应数据发送出去了，客户端接收到了。所以，我的发送能力是正常的。而客户端的接收能力也是正常的。</p>
+<p>经历了上面的三次握手过程，客户端和服务端都确认了自己的接收、发送能力是正常的。之后就可以正常通信了。</p>
+<h2 id="TCP-四次挥手断开连接"><a href="#TCP-四次挥手断开连接" class="headerlink" title="TCP 四次挥手断开连接"></a>TCP 四次挥手断开连接</h2><ol>
+<li><p>客户端发送一个FIN段，并包含一个希望接收者看到的自己当前的序列号K. 同时还包含一个ACK表示确认对方最近一次发过来的数据。</p>
+</li>
+<li><p>服务端将K值加1作为ACK序号值，表明收到了上一个包。这时上层的应用程序会被告知另一端发起了关闭操作，通常这将引起应用程序发起自己的关闭操作。</p>
+</li>
+<li><p>服务端发起自己的FIN段，ACK=K+1, Seq=L</p>
+</li>
+<li><p>客户端确认。ACK=L+1</p>
+</li>
+</ol>
+<h2 id="为什么建立连接是三次握手，而关闭连接却是四次挥手呢？"><a href="#为什么建立连接是三次握手，而关闭连接却是四次挥手呢？" class="headerlink" title="为什么建立连接是三次握手，而关闭连接却是四次挥手呢？"></a>为什么建立连接是三次握手，而关闭连接却是四次挥手呢？</h2><p>建立连接的时候，服务端在收到建立连接请求的SYN报文后，把ACK和SYN放在一个报文里发送给客户端。</p>
+<p>而关闭连接时，当收到对方的FIN报文时，仅仅表示对方不再发送数据了但是还能接收数据，己方是否现在关闭发送数据通道，需要上层应用来决定，因此，己方ACK和FIN一般都会分开发送。</p>
+]]></content>
       <categories>
         <category>Web</category>
       </categories>
       <tags>
-        <tag>fetch</tag>
-        <tag>性能测试</tag>
+        <tag>Web 前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>读书《星空的琴弦》</title>
+    <url>/2020/06/20/%E8%AF%BB%E4%B9%A6%E3%80%8A%E6%98%9F%E7%A9%BA%E7%9A%84%E7%90%B4%E5%BC%A6%E3%80%8B/</url>
+    <content><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>科学精神比科学知识更重要，即：探索，怀疑，实证，理性的过程比结果更重要</p>
+<p>科学的伟大力量在于，它可以被重复检验，不像玄学“心诚则灵，不灵则是心不诚”</p>
+<p>无论是开普勒，哥白尼还是后来的伽利略，牛顿，在各自学说成立过程中，都解决与提出许多问题，也正是这些有价值的问题，推动了科学和真理往前的一步又一步</p>
+<p>平庸-我们在宇宙中所处位置和演化阶段都是平庸而且无任何特殊之处的<br>作者的推论：研究某个细菌，不需要盯着一个细菌连续拍摄，而是对着一片细菌，因为细菌演化过程中都是相似的，同样外星人研究人类也是一样</p>
+<p>宇宙中，我们观测到的物质占比 4.9%，暗物质占比 26.8%，68.3% 的暗能量<br>暗物质：主流观点是一种微观粒子，除了与其他粒子发生引力效应外，几乎不与其他粒子发生任何作用<br>暗能量：1999 年的研究表明，宇宙在大爆炸 70 亿年中，是减速膨胀的，70 亿年后是加速膨胀的，造成加速膨胀的能量叫做暗能量，主流观测定义为：空间的固有属性，物质之间空间越小，暗能量越小，空间越大，暗能量越大</p>
+<p>宇宙的命运会是怎样？<br>主流观点</p>
+<ol>
+<li>热寂说：基于熵增理论，宇宙变得无比巨大，所有的星体都会完全蒸发，宇宙最终剩下光子和轻子。</li>
+<li>大撕裂：基于暗能力理论，暗能量无限增强，把所有的粒子都撕裂，即每个粒子远离速度都超过光速，粒子粒子之间不再发生任何相互作用</li>
+</ol>
+<p>书结尾：“康德：有两件事情是我愈是思考愈觉神奇，心中也愈充满敬畏，那就是我头顶上的星空与我内心的道德准则”</p>
+<h2 id="感触"><a href="#感触" class="headerlink" title="感触"></a>感触</h2><p>这是一本围绕人类是如何探索世界，解答一个又一个对于人类认知世界问题的科普书籍。<br>通过“编写”人物经历，对话和情节，介绍科学发现过程与方法论，其中也不乏关键的数学与物理学论证逻辑。<br>从最开始的“地球如果自转如何解释物体是垂直升起和落下的现象？”到最终“宇宙最终的命运会是怎样？”，无论答案是什么，作者都传达了一个非常精妙而有趣的理论：</p>
+<p>“研究这些问题的意义都是人赋予的，我们称之为艺术，人类没有解决温饱之前，艺术是没有意义的，人类解决温饱之后，艺术的意义大于吃饭，如果你追问下去，艺术对人类的意义到底是什么？那么只有一个答案：给人带来美感”</p>
+]]></content>
+      <tags>
+        <tag>读书</tag>
       </tags>
   </entry>
 </search>
